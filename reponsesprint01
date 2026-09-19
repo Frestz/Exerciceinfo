@@ -1,0 +1,20 @@
+                           À quoi sert-il ?
+include <stdio.h>          Permet d'utiliser les fonctions d'entrée/sortie, notamment printf().
+int main()                 Définit la fonction principale : c'est là que le programme commence son exécution.
+{ }	                       Délimitent le début et la fin des instructions d'une fonction.
+printf("Bonjour !");	     Affiche le texte « Bonjour ! » à l'écran.
+return 0;   	             Indique que le programme s'est terminé correctement.
+
+
+
+1. Quelle est la première fonction exécutée lorsqu'un programme démarre ?
+main()
+
+2. Pourquoi utilise-t-on printf() ?
+Pour afficher du texte
+
+3. Que signifie return 0; ?
+ca indiques que le programme s'est terminé.
+
+4. Que se passe-t-il si le programme contient une erreur de syntaxe ?
+le progamme ne marche pas.
