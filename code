@@ -1,0 +1,71 @@
+#include <stdio.h>
+
+int main()
+{
+
+    printf("Bonjour.\n");
+    printf("Je m'appelle Paul.\n");
+    printf("J'apprends le langage C !\n");
+
+    printf("\n");
+
+    printf("Je m'appelle Liuxing.\n");
+    printf("J'ai 15 ans.\n");
+    printf("J'aime les jeux vidéos.\n");
+
+    printf("\n");
+
+    printf("*****\n");
+    printf("*****\n");
+    printf("*****\n");
+    printf("*****\n");
+
+    printf("\n");
+
+    printf("+\n");
+    printf("++\n");
+    printf("+++\n");
+    printf("++++\n");
+    printf("+++++\n");
+
+    printf("\n");
+
+    printf("==============================\n");
+    printf("       MA CARTE DE VISITE    \n");
+    printf("==============================\n");
+    printf("Nom : Liuxing\n");
+    printf("Age : 15 ans\n");
+    printf("Classe : 5B\n");
+    printf("Email : frestz689@gmail.com\n");
+    printf("==============================\n");
+
+
+printf("L        I I I   U        U  X     X   I I I   N     N   G G G  \n");
+printf("L          I     U        U   X   X      I     NN    N  G       \n");
+printf("L          I     U        U    X X       I     N N   N  G   G G \n");
+printf("L          I     U        U   X   X      I     N  N  N  G     G \n");
+printf("L L L L  I I I     U U U U   X     X   I I I   N   N N   G G G  \n");
+
+    printf("\n");
+
+    // Exercice 7 — Programme libre (Ecran de jeu ASCII)
+    printf("+----------------------------------+\n");
+    printf("|          SUPER MARIO BROS          |\n");
+    printf("+----------------------------------+\n");
+    printf("| SCORE: 00250            LIVES: 3 |\n");
+    printf("|                                  |\n");
+    printf("|       [?]  [?]   [?]             |\n");
+    printf("|                                  |\n");
+    printf("|   @                      /\\      |\n");
+    printf("====================================\n");
+
+    printf("====================================\n");
+    printf(" BIENVENUE DANS MON PROGRAMME\n");
+    printf("====================================\n");
+    printf("1. Jouer\n");
+    printf("2. Options\n");
+    printf("3. Quitter\n");
+    printf("====================================\n");
+
+    return 0;
+}
