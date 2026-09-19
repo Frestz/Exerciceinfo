@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main()
+{
+    // Exercice 2
+    printf("Bonjour.\n");
+    printf("Je m'appelle Paul.\n");
+    printf("J'apprends le langage C !\n");
+
+    printf("\n");
+
+    // Exercice 3
+    printf("Je m'appelle Liuxing.\n");
+    printf("J'ai 15 ans.\n");
+    printf("J'aime les jeux vidéos.\n");
+
+    printf("\n");
+
+    // Exercice 4
+    printf("*****\n");
+    printf("*****\n");
+    printf("*****\n");
+    printf("*****\n");
+
+    printf("\n");
+
+    printf("+\n");
+    printf("++\n");
+    printf("+++\n");
+    printf("++++\n");
+    printf("+++++\n");
+
+    printf("\n");
+
+    // Exercice 5
+    printf("==============================\n");
+    printf("        MA CARTE DE VISITE\n");
+    printf("==============================\n");
+    printf("Nom : Liuxing\n");
+    printf("Age : 15 ans\n");
+    printf("J'aime : les jeux videos\n");
+    printf("==============================\n");
+
+    return 0;
+}
