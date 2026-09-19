@@ -88,14 +88,14 @@ int main()
     float math = 15.0;
     float francais = 17.0;
     float sciences = 18.0;
-    float moyenne = (math + francais + sciences) / 3.0;
+    float moyennebulletin = (math + francais + sciences) / 3.0;
 
     printf("******** BULLETIN ********\n\n");
   
     printf("Math : %.0f\n", math);
     printf("Francais : %.0f\n", francais);
     printf("Sciences : %.0f\n\n", sciences);
-    printf("Moyenne : %.2f\n\n", moyenne);
+    printf("Moyennebulletin : %.2f\n\n", moyennebulletin);
     printf("***************************\n");
 
     return 0;
