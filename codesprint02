@@ -1,0 +1,102 @@
+#include <stdio.h>
+
+int main()
+{
+    //Activité 1
+    int age = 17;
+    printf("Age : %d\n", age);
+
+    age = 18;
+    printf("Nouvel age : %d\n\n", age);
+
+
+    //Exercice 1
+    int a = 12;
+    int b = 8;
+    int somme = a + b;
+    printf("La somme de %d et %d est : %d\n\n", a, b, somme);
+
+
+    //Exercice 2
+    double x = 15.0;
+    double y = 4.0;
+    printf("Addition       : %.2f\n", x + y);
+    printf("Soustraction   : %.2f\n", x - y);
+    printf("Multiplication : %.2f\n", x * y);
+    printf("Division       : %.2f\n\n", x / y);
+
+
+    //Exercice 3
+    float temperature = 21.5;
+    printf("La temperature actuelle est de : %.1f degres C\n\n", temperature);
+
+
+    //Exercice 4
+    double longueur = 8.5;
+    double largeur = 4.0;
+    double aire = longueur * largeur;
+    printf("L'aire du rectangle est : %.2f cm2\n\n", aire);
+
+
+    //Exercice 5
+    double perimetre = 2 * (longueur + largeur);
+    printf("Le perimetre du rectangle est : %.2f cm\n\n", perimetre);
+
+
+    //Exercice 6
+    float note1 = 14.5;
+    float note2 = 16.0;
+    float note3 = 12.0;
+    float moyenne = (note1 + note2 + note3) / 3.0;
+    printf("Notes : %.1f, %.1f, %.1f\n", note1, note2, note3);
+    printf("La moyenne est : %.2f\n\n", moyenne);
+
+
+    //Exercice 7 – TVA
+    double prixHTVA = 100.0;
+    double tauxTVA = 0.21; // TVA à 21%
+    double prixTVAC = prixHTVA * (1 + tauxTVA);
+
+    printf("--- Exercice 7 ---\n");
+    printf("Prix HTVA : %.2f EUR\n", prixHTVA);
+    printf("Prix TVAC : %.2f EUR\n\n", prixTVAC);
+
+  
+    //Exercice 8 – Salaire 
+    double salaireMensuel = 2500.0;
+    double salaireAnnuel = salaireMensuel * 12;
+
+    printf("--- Exercice 8 ---\n");
+    printf("Salaire mensuel : %.2f EUR\n", salaireMensuel);
+    printf("Salaire annuel  : %.2f EUR\n\n", salaireAnnuel);
+
+
+    //Exercice 9 – Conversion
+    double kilometres = 5.5;
+    double metres = kilometres * 1000;
+
+    int heures = 2;
+    int minutes = heures * 60;
+
+    printf("--- Exercice 9 ---\n");
+    printf("%.2f km = %.0f m\n", kilometres, metres);
+    printf("%d heures = %d minutes\n\n", heures, minutes);
+
+
+
+  
+    float math = 15.0;
+    float francais = 17.0;
+    float sciences = 18.0;
+    float moyenne = (math + francais + sciences) / 3.0;
+
+    printf("******** BULLETIN ********\n\n");
+  
+    printf("Math : %.0f\n", math);
+    printf("Francais : %.0f\n", francais);
+    printf("Sciences : %.0f\n\n", sciences);
+    printf("Moyenne : %.2f\n\n", moyenne);
+    printf("***************************\n");
+
+    return 0;
+}
